@@ -2,3 +2,18 @@
     background-color: rgb(228, 95, 120);
     font-family: Verdana, DejaVu Sans, sans-serif;
 }
+
+.blueText {
+    color: blue;
+    font-size: 36x;
+}
+
+.font24 {
+    font-size: 24px;
+}
+
+.boldGreen {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
