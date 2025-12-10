@@ -1,0 +1,16 @@
+.blackWhiteBold,
+.yellowBG {
+    font-size: 28px;
+    font-family: 'Helvetica', 'Times New Roman', 'sans-serif';
+}
+
+.blackWhiteBold {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.yellowBG {
+    background-color: yellow;
+}
+

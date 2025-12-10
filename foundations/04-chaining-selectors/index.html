@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaining Selectors</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Check image source path. Review Foundations lesson - Links and Images -->
+    <!-- Use the classes BELOW this line -->
+    <div>
+      <img class="avatar proportioned" src="./images/pexels-katho-mutodo-8434791.jpg" alt="Woman with glasses">
+      <img class="avatar distorted" src="./images/pexels-andrea-piacquadio-3777931.jpg" alt="Man with surprised expression">
+    </div>
+    <!-- Use the classes ABOVE this line -->
+    <div>
+      <img class="original proportioned" src="./images/pexels-katho-mutodo-8434791.jpg" alt="Woman with glasses">
+      <img class="original distorted" src="./images/pexels-andrea-piacquadio-3777931.jpg" alt="Man with surprised expression">
+    </div>
+  </body>
+</html>
+
+<!-- 
+  Simply needed to put the classes .avatar._____ in the CSS stylesheet. 
+  Initially wasn't sure what the point of the .avatar class is since it doesn't seem to be defined anywhere. But if you remove it, the proportioned and distorted 
+  classes get applied to the originals as well. Point seems to be that even though avatar itself is never defined in CSS, it makes sure it's only applied to the
+  html that specifies avatar.
+ -->

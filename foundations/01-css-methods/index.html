@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Methods for Adding CSS</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      .div2 {
+        color: white;
+        background-color: green;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: large;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div1">Style me via the external method!</div>
+    <div class="div2"><p>I would like to be styled with the internal method, please.</p></div>
+    <button style="color: black; background-color: goldenrod;">Inline Method</button>
+  </body>
+</html>
+<!--
+  Seperate div classes were unneeded, div in the styles.css would apply to just first and only div since <p> didn't need own div. 
+  Internal style could be named p instead of .div2 and would just apply to the non-div'ed <p>
+    -->
